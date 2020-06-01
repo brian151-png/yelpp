@@ -57,15 +57,15 @@ describe('Done Button Working', () => {
 
     // TEST 6
 
-    test( 'Something', () => {
+    //test( 'Something', () => {
 
-        const { result } = renderHook(() => SearchScreen());
+    //    const { result } = renderHook(() => SearchScreen());
     
-        console.log(result.current.term);
+    //    console.log(result.current.term);
     
-        act(() => result.current.term)
-        expect(result.current.term).toEqual('Something went wrong');
+    //    act(() => result.current.term)
+    //    expect(result.current.term).toEqual('Something went wrong');
    
-    })
+    //})
 
 })
